@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>accessDate</key>
+		<date>2009-05-28T02:55:03Z</date>
+		<key>actualSize</key>
+		<integer>499531</integer>
+		<key>attributeModDate</key>
+		<date>2009-05-28T02:55:04Z</date>
+		<key>createDate</key>
+		<date>2009-05-27T03:53:40Z</date>
+		<key>creationDate</key>
+		<date>2009-06-04T20:49:36Z</date>
+		<key>encrypted</key>
+		<false/>
+		<key>id</key>
+		<string>FFEC0833-B871-4F92-8241-A5B4533CC6CA</string>
+		<key>lastModifiedDate</key>
+		<date>2009-05-23T01:47:44Z</date>
+		<key>originalPath</key>
+		<string>/Users/xiaofengxie/myAcadamic/Programming/uniMAOS/binary/MAOS_SEQ.jar</string>
+		<key>originalSize</key>
+		<integer>499531</integer>
+		<key>versionMetadataList</key>
+		<array>
+			<dict>
+				<key>POSIXPermissions</key>
+				<integer>-32348</integer>
+				<key>creatorCode</key>
+				<integer>0</integer>
+				<key>fileType</key>
+				<integer>0</integer>
+				<key>id</key>
+				<string>5863A1D8-B743-4763-9D1A-BE00923C1772</string>
+				<key>macAttributes</key>
+				<integer>0</integer>
+				<key>ownerGID</key>
+				<integer>20</integer>
+				<key>ownerUID</key>
+				<integer>502</integer>
+			</dict>
+		</array>
+		<key>versionType</key>
+		<integer>0</integer>
+	</dict>
+</array>
+</plist>
