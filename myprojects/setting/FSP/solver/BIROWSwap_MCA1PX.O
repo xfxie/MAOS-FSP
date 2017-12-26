@@ -1,0 +1,19 @@
+-P LI < R_LS:LI
+-P nScale < R_XS:nScale
+
+-L R_INI < RSS_Rand@KernelSSModules
+
+-L R_T < RT_BETTER@KernelRTModules
+
+-D R_XS_S < implement.common.behavior.combine.CAOnePointOrderXS: postmode=2
+-D statepicker < maosKernel.behavior.pick.ExtremeStatePicker:isBetter=true
+-D R_XS < maosKernel.behavior.combine.MultipleMRecombinationSearch: nScale=0.05, baseSearcher=&R_XS_S, statePicker=&statepicker
+
+-D R_1Mover < implement.FSP.behavior.onemove.FSPInsert1Mover
+-D R_ReferSel < maosKernel.behavior.greedy.referSel.BestNWTReferSelectModel
+-D R_NODE < maosKernel.behavior.greedy.nodeLevel.BasicLSLevelNodePolicy: basic1Mover=&R_1Mover, referSelector=&R_ReferSel
+
+-L R_LS < MLS_MFS_Imp@KernelMLSModules: R_NODE=&R_NODE, LI=1
+
+-L R_G < RG_RSP_FS@KernelRGModules: R_XS=&R_XS, R_LS=&R_LS  
+
